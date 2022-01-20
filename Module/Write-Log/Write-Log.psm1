@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-Basic log file creator.
+Creates entries to a log file
 
 .DESCRIPTION
 Creates an entry of a specified severity into the log file.
@@ -21,14 +21,14 @@ The directory of the log file.
 The name of the log file. Should be a *.log extension. The default location is the area the script was executed.
 
 .EXAMPLE
-write-log -Message "Oh no its all gone wrong"
+write-log -Message "Oh no Jurgen was here"
 .EXAMPLE
-write-log -Message "Oh no its an error!" -severity "Error"
+write-log -Message "Oh no Jurgen was here" -severity "Error"
 .EXAMPLE
-write-log -Message "Oh no its all gone wrong" -severity "Error" -LogLocation "C:\temp\Log.log"
+write-log -Message "Oh no Jurgen was here" -severity "Error" -LogLocation "C:\temp\ffsJurgen.log"
 
 .NOTES
-This original module can be found in the following GitHub Repo: https://github.com/captainqwerty/Write-Log
+This module can be found in the following GitHub Repo: https://github.com/captainqwerty/Write-Log
 #>
 
 Function Write-Log {
@@ -44,10 +44,10 @@ Function Write-Log {
       [string]$logLocation = "$PSScriptRoot\log.log"
   )
 
-  if(!test-path $logLocation) {
-    New-Item $logLocation -Force
+  if(!(test-path $logLocation)) {
+    new-item $logLocation -Force | out-null
   }
-
+  
   $timeStamp = Get-date -Format "dd/MM/yyyy HH:mm:ss"
   $Output = "$timeStamp - [$severity] $Message"
   Add-Content $logLocation -value $Output
