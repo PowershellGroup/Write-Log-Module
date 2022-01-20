@@ -40,8 +40,9 @@ This is an example of how to list things you need to use the software and how to
 ### Installation of Class Version
 
 1. Download the <a href="https://github.com/captainqwerty/Write-Log/release">latest release</a>.
-2. Place the "Write-Log" folder in your project's folder or in a location the script can access under the context it will be ran.
-3. Add the Using satement pointing to the Write-Log-Class.psm1 file, please note using statements must be the very first lines of your script.  In this example the Write-Log folder containing the file is in the root folder with the script calling it.
+2. Extract the zipped folder.
+3. Place the "Write-Log" folder in your project's folder or in a location the script can access under the context it will be ran.
+4. Add the Using satement pointing to the Write-Log-Class.psm1 file, please note using statements must be the very first lines of your script.  In this example the Write-Log folder containing the file is in the root folder with the script calling it.
 ```ps1
 using module ".\Write-Log\Write-Log-Class.psm1"
 ```
@@ -50,8 +51,9 @@ using module ".\Write-Log\Write-Log-Class.psm1"
 ### Installation of Module Version
 
 1. Download the <a href="https://github.com/captainqwerty/Write-Log/releases">latest release</a>.
-2. Ensure the Write-log.psm1 remains in a folder called "Write-Log" and place the Write-Log folder in your project's folder or in a location the script can access under the context it will be ran.
-3. Import the Module. In this example the Write-Log folder is in the root of the project folder. 
+2. Extra the zipped folder.
+3. Ensure the Write-log.psm1 remains in a folder called "Write-Log" and place the Write-Log folder in your project's folder or in a location the script can access under the context it will be ran.
+4. Import the Module. In this example the Write-Log folder is in the root of the project folder. 
 ```ps1
 $module = "$psscriptroot\Write-Log"
 if(!(test-path $module)){
