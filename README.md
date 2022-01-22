@@ -14,8 +14,8 @@
   <p align="center">
     A simple project to easily add a log to your projects
     <br />
-    <a href="https://github.com/captainqwerty/Write-Log/releases">Releases</a> -
-    <a href="https://github.com/captainqwerty/Write-Log/issues">Report Bug</a>
+    <a href="https://github.com/PowershellGroup/Write-Log-Module/releases">Releases</a> -
+    <a href="https://github.com/PowershellGroup/Write-Log-Module/issues">Report Bug</a>
   </p>
 </div>
 
@@ -49,7 +49,7 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation of Class Version
 
-1. Download the <a href="https://github.com/captainqwerty/Write-Log/release">latest release</a>.
+1. Download the <a href="https://github.com/PowershellGroup/Write-Log-Module/release">latest release</a>.
 2. Extract the zipped folder.
 3. Place the "Write-Log" folder in your project's folder or in a location the script can access under the context it will be ran.
 4. Add the Using statement pointing to the Write-Log-Class.psm1 file, please note using statements must be the very first lines of your script.  In this example the Write-Log folder containing the file is in the root folder with the script calling it.
@@ -62,7 +62,7 @@ using module ".\Write-Log\Write-Log-Class.psm1"
 
 ### Installation of Module Version
 
-1. Download the <a href="https://github.com/captainqwerty/Write-Log/releases">latest release</a>.
+1. Download the <a href="https://github.com/PowershellGroup/Write-Log-Module/releases">latest release</a>.
 2. Extra the zipped folder.
 3. Ensure the Write-log.psm1 remains in a folder called "Write-Log" and place the Write-Log folder in your project's folder or in a location the script can access under the context it will be ran.
 4. Import the Module. In this example the Write-Log folder is in the root of the project folder.
@@ -180,13 +180,13 @@ Don't forget to give the project a star! Thanks again!
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/captainqwerty/Write-Log.svg?style=for-the-badge
-[contributors-url]: https://github.com/captainqwerty/Write-Log/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/captainqwerty/Write-Log.svg?style=for-the-badge
-[forks-url]: https://github.com/captainqwerty/Write-Log/network/members
-[stars-shield]: https://img.shields.io/github/stars/captainqwerty/Write-Log.svg?style=for-the-badge
-[stars-url]: https://github.com/captainqwerty/Write-Log/stargazers
-[issues-shield]: https://img.shields.io/github/issues/captainqwerty/Write-Log.svg?style=for-the-badge
-[issues-url]: https://github.com/captainqwerty/Write-Log/issues
+[contributors-shield]: https://img.shields.io/github/contributors/PowershellGroup/Write-Log-Module.svg?style=for-the-badge
+[contributors-url]: https://github.com/PowershellGroup/Write-Log-Module/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/PowershellGroup/Write-Log-Module.svg?style=for-the-badge
+[forks-url]: https://github.com/PowershellGroup/Write-Log-Module/network/members
+[stars-shield]: https://img.shields.io/github/stars/PowershellGroup/Write-Log-Module.svg?style=for-the-badge
+[stars-url]: https://github.com/PowershellGroup/Write-Log-Module/stargazers
+[issues-shield]: https://img.shields.io/github/issues/PowershellGroup/Write-Log-Module.svg?style=for-the-badge
+[issues-url]: https://github.com/PowershellGroup/Write-Log-Module/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/antonybragg/
